@@ -6,6 +6,7 @@ import Particle from "../Particle";
 import recipe from "../../Assets/Projects/recipe.jpg";
 import imdb from "../../Assets/Projects/imdb.png";
 import weather from "../../Assets/Projects/weather.jpg";
+import course from "../../Assets/Projects/class.jpg";
 
 function Projects() {
   return (
@@ -19,16 +20,25 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={course}
+              isBlog={false}
+              title="Course-Selling-App"
+              description="The LearnNest MERN app is a dynamic and user-friendly course selling platform, meticulously crafted using the cutting-edge MERN stack (MongoDB, Express.js, React, Node.js). Seamlessly integrated with an intuitive admin dashboard, LearnNest empowers administrators with effortless control over course management through comprehensive CRUD operations."
+              ghLink="https://github.com/Sejal99/Course-selling-app"
+              demoLink="https://sejal-course-selling-app.vercel.app/"
+            />
+          </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
               imgPath={recipe}
               isBlog={false}
               title="Restaurant-App"
-              description="The restaurant site built using ReactJS and Material UI is a visually highly interactive platform that delivers an exceptional user experience.With Material UI, the site boasts a modern and sleek design,featuring clean typography, vibrant colors, and intuitive navigation.The use of ReactJS and Material UI enables seamless transitions between pages, smooth scrolling,and effortless browsing."
-              ghLink="https://github.com/Sejal99/Restaurant"
-              demoLink="https://admirable-horse-bd7db0.netlify.app/"
+              description="I've built a user-friendly web application using React. To handle different parts of the app, I've used handy tools like custom hooks, React Router for navigation, and Redux Toolkit for managing the application's state effectively. The app allows users to search for items right from the header, and they can even filter items by their priority and sort them by price. Users can mark items they like as favorites, and easily access them on a dedicated favorites page. Moreover, there's a shopping cart feature that lets users view their selected items before making a purchase. The app also features a login page with simple form validation to ensure user data accuracy. To fetch a list of products, I've integrated the #FakeStore API into the app."
+              ghLink="https://github.com/Sejal99/food_delivery"
+              demoLink="https://food-delivery-sejal-site.vercel.app/"
             />
           </Col>
 
