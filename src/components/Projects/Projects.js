@@ -36,7 +36,7 @@ function Projects() {
               imgPath={recipe}
               isBlog={false}
               title="Restaurant-App"
-              description="I've built a user-friendly web application using React. To handle different parts of the app, I've used handy tools like custom hooks, React Router for navigation, and Redux Toolkit for managing the application's state effectively. The app allows users to search for items right from the header, and they can even filter items by their priority and sort them by price. Users can mark items they like as favorites, and easily access them on a dedicated favorites page. Moreover, there's a shopping cart feature that lets users view their selected items before making a purchase. The app also features a login page with simple form validation to ensure user data accuracy. To fetch a list of products, I've integrated the #FakeStore API into the app."
+              description="It is a user-friendly web application using React. To handle different parts of the app, I've used handy tools like custom hooks, React Router for navigation, and Redux Toolkit for managing the application's state effectively. The app allows users to search for items right from the header, and they can even filter items by their priority and sort them by price. Users can mark items they like as favorites, and easily access them on a dedicated favorites page.To fetch a list of products api is used."
               ghLink="https://github.com/Sejal99/food_delivery"
               demoLink="https://food-delivery-sejal-site.vercel.app/"
             />
