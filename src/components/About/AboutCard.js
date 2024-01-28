@@ -12,7 +12,7 @@ function AboutCard() {
             from <span className="purple"> Lucknow, India.</span>
             <br />I have completed my graduation from JSSATEB.
             <br />
-            Additionally, I am currently looking for a job in software domain.
+            Additionally, I am currently working as a Frontend Developer.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
