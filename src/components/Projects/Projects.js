@@ -7,7 +7,8 @@ import recipe from "../../Assets/Projects/recipe.jpg";
 import imdb from "../../Assets/Projects/imdb.png";
 import weather from "../../Assets/Projects/weather.jpg";
 import course from "../../Assets/Projects/class.jpg";
-
+import blogg from "../../Assets/Projects/blogg.png";
+import short from "../../Assets/Projects/short.jpeg";
 function Projects() {
   return (
     <Container fluid className="project-section">
@@ -20,6 +21,36 @@ function Projects() {
           Here are a few projects I've worked on recently.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
+        <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={blogg}
+              isBlog={false}
+              title="Blog Application"
+              description="A webapplication built using Next.js, TypeScript, Tailwind CSS, Node.js, Express.js, MongoDB, and
+              integrated with Amazon S3 for storage. The goal is to create a versatile blogging platform where
+              registered creators can author and publish blogs publicly, while users can interact by commenting
+              and sharing their thoughts on the content. Key features include image uploading, pagination with
+              a search bar, JWT-based authentication for secure access, CRUD operations for managing content,
+              and a dedicated section for comments. Both blog-related images and profile images are stored in an
+              Amazon S3 bucket, ensuring seamless media management"
+              ghLink="https://github.com/Sejal99/blogging-site"
+              demoLink="https://sejal-blogging.vercel.app/"
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={short}
+              isBlog={false}
+              title="URL Shortner"
+              description="Simplify URL sharing with this React.js, Node.js, Express, and MongoDB-powered application.The
+              objective of the project is to provide authenticated users with shortened URLs for links of any length,
+              along with analytics tracking. Copy, paste, and share concise links effortlessly."
+              ghLink="https://github.com/Sejal99/url_shortner"
+              demoLink="https://url-shortner-one-ruddy.vercel.app/"
+            />
+          </Col>
+          
         <Col md={4} className="project-card">
             <ProjectCard
               imgPath={course}
